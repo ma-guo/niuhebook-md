@@ -1,4 +1,4 @@
-[Vscode niuhe](https://marketplace.visualstudio.com/items?itemName=dequan.niuhe) 插件是一款面向 golang 的后端 IDL 定义翻译插件, 旨在简化后端开发流程, 提高开发效率. 它可以通过简单的 [niuhe idl 语法](../chapter2/README.md) 定义接口, 生成对应的 go 服务代码, 前端 api 定义, swagger 文档, 以及其他语言的协议定义. 让开发人员专注于业务逻辑, 而不是繁琐的代码生成工作.
+[Vscode niuhe](https://marketplace.visualstudio.com/items?itemName=dequan.niuhe) 插件是一款面向 golang 的后端 IDL 定义翻译插件, 旨在简化后端开发流程, 提高开发效率. 它可以通过简单的 [niuhe idl 语法](../chapter2/section3.md) 定义接口, 生成对应的 go 服务代码, 前端 api 定义, swagger 文档, 以及其他语言的协议定义. 让开发人员专注于业务逻辑, 而不是繁琐的代码生成工作.
 
 ## 核心功能
 

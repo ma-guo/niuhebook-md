@@ -17,7 +17,7 @@
   - [admin-core 引入](./chapter5/section1.md)
   - [访问权限](./chapter5/section2.md)
   - [API 级权限校验](./chapter5/section3.md)
-  - [vue3-element-admin 项目搭建指南](./chapter5/section4.md)
+  - [vue3-element-admin 指南](./chapter5/section4.md)
   - [FAQ](./chapter5/section5.md)
 - [致谢](./chapter6/section1.md)
   - [FAQ](./chapter6/section2.md)
