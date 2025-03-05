@@ -1,0 +1,6 @@
+[book]
+authors = ["dequan"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "niuhe 插件使用教程"

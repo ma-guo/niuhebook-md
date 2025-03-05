@@ -1,0 +1,2 @@
+## 致谢
+生成的 go 代码路由管理项目修改至 [github.com/zp-server/niuhe](https://github.com/ziipin-server/niuhe), 在原库的基础上进行了微小修改以支持除 `GET, POST` 外的其他 `http` 方法。 入参的读取库 fork 至 [github.com/ziipin-server/zpform](https://github.com/ziipin-server/zpform), 而管理后台前端项目则 fork 至 [https://github.com/youlaitech](https://github.com/youlaitech) 。感谢这些库的作者和贡献者的无私贡献和开源精神。
