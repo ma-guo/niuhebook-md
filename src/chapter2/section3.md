@@ -121,7 +121,7 @@ http_method('接口说明', 'api_path(/mode/view/method/)', 入参类名（可�
 其中 
 - `http_method` 可以是 `GET`, `POST`, `PUT`, `DELETE`, `PATCH`, `HEAD`, `OPTIONS` 等 http method
 - `接口说明`: 接口的简要描述, 如 `'获取用户信息'`
-- `api_path`: 必须时三段式 api 的路径, 如 `/api/hello/world/`
+- `api_path`: 必须是三段式 api 的路径, 如 `/api/hello/world/`
 - `入参类名`: 可选, 如 `HelloReq` 当不填写时，得自己处理入参和出参的解析, 入参和出参得同时可选或同时必填。
 - `出参类名`: 可选, 如 `HelloRsp` 当不填写时，得自己处理入参和出参的解析, 入参和出参得同时可选或同时必填。
 本章节第二小节定义的路由如下:

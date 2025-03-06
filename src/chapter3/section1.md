@@ -7,7 +7,7 @@ func (v *Hello) World_GET(c *niuhe.Context, req *protos.HelloReq, rsp *protos.He
 	return nil
 }
 ```
-重新运行程序并访问如下链接 `http://localhost:9999/api/hello/world/?name=Tom`，即可看到返回的问候语。
+重新运行程序并访问如下链接 `http://localhost:19999/api/hello/world/?name=Tom`，即可看到返回的问候语。
 ```json
 {
   "data": {

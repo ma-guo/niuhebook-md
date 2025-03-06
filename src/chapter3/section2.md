@@ -12,7 +12,7 @@ with services():
     GET('示例接口', '/api/hello/world/', HelloReq, HelloRsp)
     GET('协议文档', '/api/hello/docs/')
 ```
-通过如下代码即可将协议文档输出到网页上：[http://localhost:9999/api/hello/docs/](http://localhost:9999/api/hello/docs/)
+通过如下代码即可将协议文档输出到网页上：[http://localhost:19999/api/hello/docs/](http://localhost:19999/api/hello/docs/)
 ```go
 // 协议文档
 func (v *Hello) Docs_GET(c *niuhe.Context) {

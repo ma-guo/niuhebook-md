@@ -56,7 +56,7 @@ with services():
 ```sh
 cd src/demo && go mod init demo && go mod tidy && go mod vendor && cd ../../ && make run
 ```
-此时我们在浏览器访问链接: http://localhost:9999/api/hello/world/, 即可看到返回的问候语。
+此时我们在浏览器访问链接: http://localhost:19999/api/hello/world/, 即可看到返回的问候语。
 ```json
 {"message":"Name（必填）","result":-1}
 ```

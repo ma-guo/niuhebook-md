@@ -6,7 +6,7 @@ admin-core 是一个基于 Vue3 + Element Plus 的后端管理系统模板，它
 ### OSS 路径问题
 admin-core 中添加了文件存储功能, 默认为本地存储，本地存储需要在配置文件中添加 host 字段, 当前 `conf/demo.yaml` 内容为:
 ```yaml
-serveraddr: :9999
+serveraddr: :19999
 loglevel: INFO
 db:
   showsql: false
@@ -14,7 +14,7 @@ db:
   sync: true
   main: user:pwd@tcp(host:port)/database_name?charset=utf8mb4
 secretkey: 123456
-host: http://localhost:9999
+host: http://localhost:19999
 ```
 ### 自定义协议处理
 本插件生成的入参和出参处理定义在 [niuhe](https://github.com/ma-guo/niuhe/blob/master/protocol.go) 库中, 具体代码为:
