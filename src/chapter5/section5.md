@@ -67,5 +67,8 @@ func (self DefaultApiProtocol) Write(c *Context, rsp reflect.Value, err error) e
 }
 ```
 如果需要自行实现为其他协议, 可以参考上述代码进行自定义实现。
+
+### 首次启动密码
+每次登录密码不匹配时都打印了日志, 可将打印的密码串粘贴到数据库 `sys_user` 表 `password` 字段即可。
 ### 总结
 通过以上步骤，您可以将 [admin-core](https://github.com/ma-guo/admin-core) 引入到您的项目中，并根据实际需求进行定制化开发。希望这些信息对您有所帮助！

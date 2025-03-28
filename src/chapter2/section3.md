@@ -130,12 +130,26 @@ with services():
     GET('示例接口', '/api/hello/world/', NihaoReq, HelloRsp)
 ```
 生成的代码在 `src/demo/app/api/views/[gen_]hello_views.go` 文件中。
+### RPC 方式定义接口
+在定义接口时，可以通过 `RPC` 关键字来定义一个接口。语法如下:
+```python
+RPC('接口说明', [http_method/url=]'api_path(/mode/view/method/)')[].args(...)][.returns(...)][.codes(...)]
+```
+其中:
+- `http_method/url=`: 可选，指定 http 方法和路径，如 `get='/api/hello/world/'`, `url='/api/hello/world/'` 或者直接写 `'/api/hello/world/'`, 此时 `http_method` 为 `GET` 和 `POST`
+- `.args(...)`: 可选，指定接口的入参，如 `.args(name=required.String(desc='用户名'),...)`
+- `.returns(...)`: 可选，指定接口的出参，如 `.returns(greeting=required.String(desc='问候语'),...)`
+- `.codes(...)`: 可选，指定接口的状态码和描述, 可用于约束 api 可返回的错误状态码范围，如 `.codes(LanguageType.ZH_CN, LanguageType.ZH_TW)`, `codes` 中为定义的 `Integer` 枚举值
+> `RPC` 方式同 `GET`, `POST` 的差异是不用直接定义一个 `class`, 在一个文件中定义过多 `class` 时不便于一目了然地查阅接口的入参和出参。
+>
+>同时 `RPC` 方式支持只定义入参和出参的情况, 此时会生成一个空结构来填补另一个未定义的参数结构
 ### include 其他文件
 在定义类时，可以通过 `include` 关键字引入其他文件中的类.
 如在 comm.niuhe 文件中定义了如下内容:
 ```python
 # 公共类型定义
-class NoneResp()
+
+class NoneResp():
     '''空响应'''
     pass
 
@@ -146,7 +160,7 @@ class NoneReq():
 此时可在 all.niuhe 文件中通过 include 引入:
 ```python
 include('comm.niuhe')
-// 然后通过 comm.NoneReq, comm.NoneResp 来使用这些类
+# 然后通过 comm.NoneReq, comm.NoneResp 来使用这些类
 ```
 
 ### 其他说明

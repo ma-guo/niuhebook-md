@@ -1,5 +1,6 @@
 run:
 	mdbook serve
+
 build:
 	mdbook build
 
@@ -9,6 +10,3 @@ fab:
 push:
 	mdbook build
 	fab -f script/fab.py deployproduct
-
-release:
-	make build && make fab

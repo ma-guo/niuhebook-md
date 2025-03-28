@@ -1,5 +1,5 @@
 ## 1. 安装与激活
-1. VSCode 插件市场搜索 `niuhe`
+1. VSCode 插件市场搜索 [`niuhe`](https://marketplace.visualstudio.com/items?itemName=dequan.niuhe)
 2. 点击安装后，可通过下列四种方式激活插件生成代码
     - 方式1: 点击资源管理器顶部出现的 `</>` 图标
     - 方式2: 点击工具栏中的 `</>`图标
