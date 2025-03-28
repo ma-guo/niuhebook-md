@@ -1,10 +1,15 @@
-## niuhe 接入 MCP 实现 API 文档更智能
+## niuhe 接入 MCP,  让 API 文档也智能
 API 文档的未来：`MCP`，让协作像聊天一样简单. `MCP` 是 `Model Context Protocol`(模型上下文协议)的缩写，是 2024 年 11 月 Claude 的公司 Anthropic 推出并开源的一个新标准。简单来说， 它就是让 AI 助手能够连接到各种第三方数据源的桥梁 ，包括你的内容库、业务工具和开发环境等等。说白了，就是让 AI 变得更聪明、回答更准确的一种方式！
 
 利用 `apifox-mcp-server` 将在线文档、`Swagger/OpenAPI` 文件提供给 AI 使用, 从而让 AI 智能体能够更好地理解和使用你的 API, 从而提高工作效率。
 
 
 `niuhe` 插件生成的 `swagger.json` 文档，能够完美借助 `apifox-mcp-server` 实现 `MCP` 功能。这意味着开发者可以轻松让 AI 智能体更深入、精准地理解和运用 API，大幅提升工作效率，让 API 开发与协作变得更加顺畅高效。
+
+<video controls>
+  <source src="https://img.footprint.gyzuxing.com/video/202503191817472.mp4" type="video/mp4">
+  你的浏览器不支持视频播放。
+</video>
 
 ## 配置 MCP 客户端
 ### 前置条件
