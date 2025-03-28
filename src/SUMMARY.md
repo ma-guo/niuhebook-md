@@ -8,6 +8,7 @@
 - [入门指南](./chapter3/README.md)
   - [Hello World 实现](./chapter3/section1.md)
   - [生成 Swagger 文档](./chapter3/section2.md)
+  - [MCP接入](./chapter3/section4.md)
   - [生成 TypeScript 定义](./chapter3/section3.md)
 - [进阶操作](./chapter4/README.md)
   - [XORM 代码生成](./chapter4/section1.md)

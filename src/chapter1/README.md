@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | Go语言支持 | 自动生成服务框架代码：包含路由配置、请求参数解析、响应格式处理等基础代码 | 后端开发 |
 | [TypeScript支持](../chapter3/section3.md) | 一键生成前端API调用代码，支持Web/小程序/React Native等场景 | 前端开发 |
-| [文档生成](../chapter3/section2.md) | 自动生成Swagger文档，支持导入Postman/Apifox等测试工具 | 接口测试 |
+| [文档生成](../chapter3/section2.md) | 自动生成Swagger文档，支持导入Postman/Apifox等测试工具, [接入 MCP](../chapter3/section4.md) 等 | 接口测试 |
 | [多语言协议](../chapter4/section2.md) | 生成标准化协议文件，支持自定义转换到其他编程语言 | 跨语言协作 |
 
 ## Go服务核心特性
